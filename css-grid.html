@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .contact-form-container {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .grid-container {
+      background-color: grey;
+      padding: 20px;
+    }
+    .grid-item {
+      padding: 20px;
+      background-color: white;
+      margin-bottom: 20px;
+    }
+    .job-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+    .company-name, .job-duration, .job-description {
+      margin-bottom: 10px;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+    }
+    .chart-title {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+    .bar {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+    .bar-title {
+      width: 20%;
+      font-weight: bold;
+    }
+    .bar-container {
+      width: 80%;
+      background-color: #f1f1f1;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .bar-fill {
+      height: 15px;
+      border-radius: 5px;
+      text-align: right;
+      padding-right: 10px;
+      color: white;
+      line-height: 15px;
+    }
+    .cplus { background-color: #4CAF50; width: 100%; }
+    .csharp { background-color: #2196F3; width: 75%; }
+    .java { background-color: #f44336; width: 65%; }
+    .javascript { background-color: #ff9800; width: 60%; }
+    .react { background-color: #00bcd4; width: 10%; }
+    .htmlcss { background-color: #673ab7; width: 70%; }
+    .bootstrap { background-color: #9c27b0; width: 60%; }
+    .GitGithub { background-color: #d75ad3; width: 80%; }
+    .docker { background-color: #518c89; width: 40%; }
+    .jira { background-color: #ddea28; width: 60%; }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#"><h5 class="text-white">My Portfolio</h5></a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#About">About</a><br />
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#Work Experience">Work Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#Skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#Projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="container-fluid p-5 bg-danger text-white text-center">
+    <h1>Welcome to my Portfolio</h1>
+    <p>Showing my work and projects.</p> 
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="C:\Users\sobia\OneDrive\Desktop\EDCR2053.JPG" class="rounded-circle me-3" alt="Profile Image" width="200" height="200">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-8"><h2 id="About">About</h2>
+        <p>I'm Sobia Bashir, a passionate developer with a knack for Java full stack development, as well as expertise in C++ and C#. With over 6 years of teaching experience at the university level and professional experience as a system programmer in Gothenburg, I bring a unique perspective to every project I undertake.</p>
+        <p>Explore my portfolio to see a showcase of my work, and feel free to reach out if you’re interested in collaborating or learning more about my services..</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 title">
+        <h4 id="Work Experience">Work Experience</h4>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="row">
+        <div class="col-md-6 grid-item">
+          <h5 class="Course-title">Junior Fullstack Java Developer</h5>
+          <p class="company-name">Lexicon AB</p>
+          <p class="job-duration">January 2024 - Present</p>
+          <p class="job-description">Worked on developing and maintaining system-level software for a project, ensuring optimal performance and scalability.</p>
+        </div>
+        <div class="col-md-6 grid-item">
+          <h5 class="Course-title">Registered in Rusta och Match</h5>
+          <p class="company-name">Arbetformedligen.</p>
+          <p class="Course-duration">August 2023 - January 2023</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 grid-item">
+          <h5 class="Course-title">Registered in Rusta och Match</h5>
+          <p class="company-name">Arbetformedligen.</p>
+          <p class="Course-duration">March 2021 - August 2021</p>
+        </div>
+        <div class="col-md-6 grid-item">
+          <h5 class="job-title">Junior System Developer</h5>
+          <p class="company-name">Academic Works AB</p>
+          <p class="job-duration">July 2019 - March 2020</p>
+          <p class="job-description">Worked on developing and maintaining system-level software for a project, ensuring optimal performance and scalability.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 grid-item">
+          <h5 class="job-title">Assistant Professor</h5>
+          <p class="company-name">University of Lahore (Computer Science Department)</p>
+          <p class="job-duration">April 2013 - February 2018</p>
+          <p class="job-description">Had responsibility to deliver Lecture. Major subject was Programming. Designed course outline of the course and I was mentor of the subject.</p>
+        </div>
+        <div class="col-md-6 grid-item">
+          <h5 class="job-title">Lecturer</h5>
+          <p class="company-name">University of Lahore (Electrical Engineering Department)</p>
+          <p class="job-duration">May 2010 - March 2013</p>
+          <p class="job-description">Was responsible to attend lecture design course outline, design and marking Quizzes, Assignments and Exams. Supervised different Final Year Projects.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 title">
+        <h4 id="Projects">Projects</h4>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="row">
+        <div class="col-md-6 grid-item">
+          <h5 class="project-title">Project # 1 : Digital Recipe Book</h5>
+          <p class="project-description">The task is to develop a digital Recipe Book application for households and restaurants with the ability to add, edit, display, and remove recipes. Each recipe includes a name, instructions, and a list of ingredients. The application will use an array of Recipe objects and involve multiple forms with established communication between them.</p>
+        </div>
+        <div class="col-md-6 grid-item">
+          <h5 class="project-title">Project#2:  Customer Registry</h5>
+          <p class="project-description">This assignment introduces fundamental concepts of object-oriented programming (OOP) by focusing on encapsulation and data-hiding. Students will learn to implement constructors, manage the "has a" relationship between objects, and utilize properties effectively. The task involves creating a customer registry application where users can add, edit, and delete customer information. Grades are based on the functionality achieved: C for basic addition of customers, and higher grades (B or A) based on code quality, structure, and documentation.
+        </div>
+        <div class="col-md-6 grid-item">
+          <h5 class="project-title">Project#3:  To Do reminder</h5>
+          <p class="project-description">This assignment focuses on advanced C# programming concepts including enums, constructors, properties, and List<T>. Students will also learn to integrate essential controls like MenuStrip, ToolTip, Timer, and MessageBox into a graphical user interface. The goal is to develop a ToDo Reminder application that allows users to add tasks with specific dates and times, display them in a list format on the GUI, and utilize a priority enum for task classification. The application must include functionality to save task data to files, emphasizing well-structured code, comprehensive documentation, and proper implementation of object-oriented principles.  
+        </div>
+        <div class="col-md-6 grid-item">
+        <h5 class="project-title">Project#4:  Multimedia Store</h5>
+        <p class="project-description">The MultimediaStore project showcases a robust software application designed for managing multimedia items such as movies, music albums, and books. Key features of the application include: Item Management: Users can add new items, edit existing ones, and remove items from the store's inventory.Collection Browsing: Intuitive navigation allows users to browse through collections of multimedia items efficiently.Rental or Purchase Functionality: Depending on project scope, the application may support features for renting or purchasing multimedia items.User Interface: Designed with a user-friendly interface using appropriate controls for seamless interaction and usability.
+        </div>
+      </div>
+    </div>
+    </div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6 contact-form-container">
+        <h4 id="Contact">Contact</h4>
+        <form action="send_email.php" method="post">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Contact</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="Portfoili">
+    <p class="text-center text-body-secondary">&copy; 2024 Sobia Bashir</p>
+  </footer>
+</body>
+</html>
